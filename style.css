@@ -1,0 +1,125 @@
+body {background-image:url(https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-repeat:initial;
+background-size: cover;
+background-attachment: fixed;
+border-image: fill;
+
+ 
+}
+
+h1 {color:#4d3520d0 ;
+font-weight: bold ;
+font-size: 70px;
+
+background-color: #9e866762;;
+text-shadow: -1px -1px 1px #111,
+2px 2px 1px #363636;
+text-align: center;
+text-shadow: 
+    0 1px 0 rgba(167, 134, 97, 0.548), 
+    0 2px 0 #f19a1867, 
+    0 3px 0 rgba(155, 120, 88, 0.562), 
+    0 4px 0 #8a5224a6, 
+    0 5px 0 rgba(109, 79, 55, 0.788), 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+}
+p{
+    font-style: oblique;
+}
+
+
+.text-brown{
+    color: #292721;
+    color: #fa9d512a;
+    
+    font-weight: bold
+}
+
+.size-15{
+    font-size: 15px;
+}
+
+#primer {
+    background-color: #7763194b; 
+padding: 25px; 
+}
+
+*{
+     font-family: 'Playfair Display', serif;
+     text-decoration: solid;
+     font-weight: bold;
+
+}
+a{ text-decoration: none;
+color: #0a0905f1
+}
+
+
+
+
+
+
+
+
+.caja p{
+    background-position: 40px ;
+    background-color: none;
+    margin: 5px;
+    border: 14px double #44321675 ;
+    text-align: center;
+
+
+
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #81713391
+
+
+}
+.navbar {
+    background-color: #3f34113f;
+    height: 45px;
+    padding: 0;
+    margin: 0
+    ;
+}
+
+.footer { 
+    color: aliceblue;
+    background-color: #3f34113f;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.info { 
+    background-color: #d4933d6c;
+    border: 14px double #79661c49;
+}
+.item{
+
+    background-color: #fa9d512a;
+
+    border: 1px solid #412711 color;
+ 
+    padding: 1rem;
+ 
+    font-family: 'Playfair Display';
+ 
+    color: rgb(22, 20, 16);
+    text-align: center;
+ 
+  }
+  .ingred {
+    font-weight: bolder;
+  }
+  

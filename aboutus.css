@@ -1,0 +1,68 @@
+*{
+    font-family:'Playfair Display';
+}
+
+body {
+    background-image:url(https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-repeat:initial;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    }
+    a{ text-decoration: none;
+        color: #0a0905f1
+        
+        
+        }
+        #primer {
+            background-color: #c2ab584b; 
+        padding: 25px; 
+        }
+        .caja p{
+            background-position: 40px ;
+            background-color: none;
+            margin: 5px;
+            border: 14px double #79661c49 ;
+            text-align: center;
+        }
+.navbar ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: #81713391
+        
+        
+        }
+.navbar {
+            background-color: #3f34113f;
+            height: 45px;
+            padding: 0;
+            margin: 0
+            ;
+        }
+.footer { 
+            color: aliceblue;
+            background-color: #3f34113f;
+            height: 45px;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+        }
+.titulo h1 {
+    text-align: center;
+}       
+.contenedor{
+    
+       display: grid;
+    
+     }
+    .aboutus{
+    
+       background-color: #fa9d512a;
+       border: 1px solid #412711 color;
+       padding: 1rem;
+       font-family: 'Playfair Display';
+       color: rgb(22, 20, 16);
+       text-align: center;
+     }
+    

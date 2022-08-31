@@ -1,0 +1,59 @@
+*{
+    font-family:'Playfair Display';
+}
+body {
+    background-image:url(https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-repeat:initial;
+    background-size: cover;
+    background-attachment: fixed;
+    font-weight: bold;
+    }
+    a{ text-decoration: none;
+        color: #0a0905f1
+        
+        
+        }
+.navbar ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: #81713391
+        
+        
+        }
+.navbar {
+            background-color: #3f34113f;
+            height: 45px;
+            padding: 0;
+            margin: 0
+            ;
+        }
+.footer { 
+            color: aliceblue;
+            background-color: #3f34113f;
+            height: 45px;
+            padding: 0;
+            margin-top: 60px;
+            text-align: right;
+        }
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+    }
+
+.navbar { grid-area: 1 / 1 / 2 / 3; }
+.form { grid-area: 2 / 1 / 5 / 2; }
+.texto { grid-area: 2 / 2 / 5 / 3; }
+.footer { grid-area: 5 / 1 / 6 / 3; }
+    
+    
+@media (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

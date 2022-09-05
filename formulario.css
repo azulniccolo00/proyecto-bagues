@@ -1,27 +1,29 @@
 *{
     font-family:'Playfair Display';
+   
 }
 body {
-    background-image:url(https://images.pexels.com/photos/949590/pexels-photo-949590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+    background-color: #55463b86 ;
     background-repeat:initial;
     background-size: cover;
     background-attachment: fixed;
     font-weight: bold;
+    background: linear-gradient(rgba(228, 121, 22, 0.507), rgba(177, 110, 48, 0.596), rgba(190, 155, 108, 0.747), rgb(247, 247, 247))
     }
-    a{ text-decoration: none;
+a{ text-decoration: none;
         color: #0a0905f1
         
         
         }
-.navbar ul {
+.navbare ul {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            color: #81713391
+            color: #61371c91
         
         
         }
-.navbar {
+.navbare {
             background-color: #3f34113f;
             height: 45px;
             padding: 0;
@@ -45,11 +47,11 @@ grid-row-gap: 0px;
 
     }
 
-.navbar { grid-area: 1 / 1 / 2 / 3; }
+.navbare { grid-area: 1 / 1 / 2 / 3; }
 .form { grid-area: 2 / 1 / 5 / 2; }
 .texto { grid-area: 2 / 2 / 5 / 3; }
 .footer { grid-area: 5 / 1 / 6 / 3; }
-    
+.carousel { grid-area: 2 / 2 / 5 / 3; } 
     
 @media (max-width:768px) {
     .container {

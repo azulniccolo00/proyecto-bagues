@@ -8,7 +8,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-weight: bold;
-    background: linear-gradient(rgba(228, 121, 22, 0.507), rgba(177, 110, 48, 0.596), rgba(190, 155, 108, 0.747), rgb(247, 247, 247))
+    background: linear-gradient(rgba(44, 39, 34, 0.521), rgba(117, 98, 81, 0.596), rgba(190, 155, 108, 0.747), rgb(247, 247, 247))
     }
 a{ text-decoration: none;
         color: #0a0905f1
@@ -19,7 +19,7 @@ a{ text-decoration: none;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            color: #61371c91
+            color: #42362f91
         
         
         }

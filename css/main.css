@@ -1,1 +1,219 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  background-color: #e3ebf1;
+  background-repeat: initial;
+  background-size: cover;
+  background-attachment: fixed;
+  border-image: fill; }
+
+h1 {
+  color: #18120dd0;
+  font-weight: bold;
+  font-size: 70px; }
+
+p {
+  font-style: oblique; }
+
+.text-brown {
+  color: #383731;
+  color: #18120dd0;
+  font-weight: bold; }
+
+.size-15 {
+  font-size: 15px; }
+
+#primer {
+  background-color: #383731;
+  padding: 25px; }
+
+* {
+  font-family: "Playfair Display", serif;
+  text-decoration: solid;
+  font-weight: bold; }
+
+a {
+  text-decoration: none;
+  color: #e3ebf1; }
+
+.caja p {
+  background-position: 40px;
+  background-color: none;
+  margin: 5px;
+  border: 14px double #383731;
+  text-align: center; }
+
+.navbare ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #383731;
+  background-color: #fcf7e73f; }
+
+.navbare {
+  background-color: #fcf7e73f;
+  height: 45px;
+  padding: 0;
+  margin: 0; }
+
+.footer {
+  color: aliceblue;
+  background-color: #383731;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  text-align: right; }
+
+.info {
+  background-color: #e3ebf1;
+  border: 14px double #383731;
+  color: #18120dd0; }
+
+.item {
+  background-color: #383731;
+  border: 1px solid #fcf7e73f;
+  font-family: 'Playfair Display';
+  color: #18120dd0;
+  text-align: center; }
+
+.ingred {
+  font-weight: bolder; }
+
+p {
+  color: #383731; }
+
+ul {
+  color: #fcf7e73f; }
+
+a {
+  text-decoration: none;
+  color: #18120dd0; }
+
+.footer {
+  color: aliceblue;
+  background-color: #383731;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  text-align: right; }
+
+.listas ul {
+  list-style-type: none; }
+
+.listi {
+  font-weight: bold; }
+
+.clasif {
+  color: #18120dd0; }
+
+.clasif p {
+  background-color: #383731; }
+
+* {
+  font-family: "Playfair Display", serif;
+  color: #18120dd0; }
+
+.envio {
+  text-align: center;
+  display: flow-root; }
+
+#ofertas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  padding: 25px;
+  flex-direction: row;
+  justify-content: space-around; }
+
+#envios {
+  max-width: 50%;
+  border: 2px solid red;
+  height: 30px;
+  text-align: left; }
+
+#regalos {
+  max-width: 50%;
+  border: 2px solid;
+  height: 30px;
+  text-align: right; }
+
+#cuotas {
+  max-width: 50%;
+  border: 2px solid;
+  height: 30px; }
+
+.conoce {
+  text-align: center; }
+
+.footer {
+  color: aliceblue;
+  background-color: #383731;
+  height: 45px;
+  padding: 0;
+  margin-top: 60px;
+  text-align: right; }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.navbare {
+  grid-area: 1 / 1 / 2 / 3; }
+
+.form {
+  grid-area: 2 / 1 / 5 / 2; }
+
+.texto {
+  grid-area: 2 / 2 / 5 / 3; }
+
+.footer {
+  grid-area: 5 / 1 / 6 / 3; }
+
+.carousel {
+  grid-area: 2 / 2 / 5 / 3; }
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column; } }
+
+.footer {
+  color: aliceblue;
+  background-color: #18120dd0;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  text-align: right; }
+
+.instrucciones {
+  background-color: #fcf7e73f;
+  background-position: 40px;
+  background-color: none;
+  margin: 15px;
+  border: 11px double #fcf7e73f;
+  text-align: center; }
+
+.footer {
+  color: aliceblue;
+  background-color: #fcf7e73f;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  text-align: right; }
+
+.titulo h1 {
+  text-align: center; }
+
+.contenedore {
+  display: grid; }
+
+.aboutus {
+  background-color: #383731;
+  border: 1px solid #e3ebf1;
+  padding: 1rem;
+  font-family: 'Playfair Display';
+  color: #18120dd0;
+  text-align: center; }

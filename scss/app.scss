@@ -1,1 +1,264 @@
-@import './tipografia.scss'
+@import 'tipografia';
+@import 'colores';
+body {background-color: $color-primario;
+    background-repeat:initial;
+    background-size: cover;
+    background-attachment: fixed;
+    border-image: fill;
+    
+     
+    }
+    
+    h1 {color: $color-secundario ;
+    font-weight: bold ;
+    font-size: 70px;
+    
+    
+    }
+    p{
+        font-style: oblique;
+    }
+    
+    
+    .text-brown{
+        color: $color-terciario;
+        color: $color-secundario;
+        
+        font-weight: bold
+    }
+    
+    .size-15{
+        font-size: 15px;
+    }
+    
+    #primer {
+        background-color: $color-terciario; 
+    padding: 25px; 
+    }
+    
+    *{
+         font-family: $fuente-primaria;
+         text-decoration: solid;
+         font-weight: bold;
+    
+    }
+    a{ text-decoration: none;
+    color: $color-primario
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .caja p{
+        background-position: 40px ;
+        background-color: none;
+        margin: 5px;
+        border: 14px double $color-terciario;
+        text-align: center;
+    
+    
+    
+    }
+    .navbare ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: $color-terciario;
+        background-color: $color-cuarto;
+    
+    
+    }
+    .navbare {
+        background-color: $color-cuarto;
+        height: 45px;
+        padding: 0;
+        margin: 0
+        ;
+    }
+    
+    .footer { 
+        color: aliceblue;
+        background-color: $color-terciario;
+        height: 45px;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        
+    }
+    .info { 
+        background-color: $color-primario;
+        border: 14px double $color-terciario;
+        color: $color-secundario;
+    }
+    .item{
+    
+        background-color: $color-terciario;
+    
+        border: 1px solid $color-cuarto ;
+     
+        
+     
+        font-family: 'Playfair Display';
+     
+        color: $color-secundario;
+        text-align: center;
+        
+     
+      }
+      .ingred {
+        font-weight: bolder;
+      }
+      
+    
+    p {
+        color: $color-terciario;
+    }
+    ul { 
+        color: $color-cuarto;
+    }
+ 
+    a{ text-decoration: none;
+        color: $color-secundario;
+        
+        
+        }
+    
+    .footer { 
+        color: $color-quinto;
+        background-color: $color-terciario;
+        height: 45px;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    .listas ul {
+    list-style-type:none;
+    
+    }
+    .listi {
+        font-weight: bold;
+    }
+    .clasif {
+        
+        color: $color-secundario;
+    }
+    .clasif p {
+        background-color: $color-terciario
+    }
+    * {
+        font-family: $fuente-primaria;
+        color: $color-secundario;
+    }
+    .envio {
+        text-align: center;
+        display: flow-root;
+    }
+    #ofertas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+        padding: 25px;
+        flex-direction: row;
+       justify-content: space-around;
+     }
+     
+     
+     #envios {
+        max-width: 50%;
+        border: 2px solid red;
+        height: 30px;
+        text-align: left;
+        
+    
+     }
+     #regalos {
+        max-width: 50%;
+        border: 2px solid ;
+        height: 30px;
+        text-align: right;
+    
+     }
+     #cuotas {
+        max-width: 50%;
+        border: 2px solid ;
+        height: 30px
+     }
+     .conoce {
+        text-align: center;
+     }
+     .footer { 
+        color: $color-quinto;
+        background-color: $color-terciario;
+        height: 45px;
+        padding: 0;
+        margin-top: 60px;
+        text-align: right;
+    }
+.container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
+.navbare { grid-area: 1 / 1 / 2 / 3; }
+.form { grid-area: 2 / 1 / 5 / 2; }
+.texto { grid-area: 2 / 2 / 5 / 3; }
+.footer { grid-area: 5 / 1 / 6 / 3; }
+.carousel { grid-area: 2 / 2 / 5 / 3; } 
+
+@media (max-width:768px) {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+}
+.footer { 
+    color: $color-quinto;
+    background-color: $color-secundario;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.instrucciones {
+background-color: $color-cuarto;
+background-position: 40px ;
+background-color: none;
+margin: 15px;
+border: 11px double $color-cuarto;
+text-align: center
+}  
+.footer { 
+    color: aliceblue;
+    background-color: $color-cuarto;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.titulo h1 {
+text-align: center;
+}       
+.contenedore{
+
+display: grid;
+
+}
+.aboutus{
+
+background-color: $color-terciario;
+border: 1px solid $color-primario;
+padding: 1rem;
+font-family: 'Playfair Display';
+color: $color-secundario;
+text-align: center;
+}
+ 

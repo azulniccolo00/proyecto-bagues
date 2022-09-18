@@ -1,0 +1,280 @@
+body {background-color: map-get($colors, primario);
+    background-repeat:initial;
+    background-size: cover;
+    background-attachment: fixed;
+    border-image: fill;
+    
+     
+    }
+    
+    h1 {color: map-get($colors, secundario) ;
+    font-weight: bold ;
+    font-size: 70px;
+    
+    
+    }
+    p{
+        font-style: oblique;
+    }
+    
+    
+    .text-brown{
+        color: map-get($colors, secundario);
+        color:map-get($colors, secundario);
+        
+        font-weight: bold
+    }
+    
+    .size-15{
+        font-size: 15px;
+    }
+    
+    #primer {
+        background-color: map-get($color, terciario); 
+    padding: 25px; 
+    }
+    
+    *{
+         font-family: $fuente-primaria;
+         text-decoration: solid;
+         font-weight: bold;
+    
+    }
+    a{ text-decoration: none;
+    color: map-get($colors, primario);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .caja p{
+        background-position: 40px ;
+        background-color: none;
+        margin: 5px;
+        border: 14px double map-get($colors, terciario);
+        text-align: center;
+    
+    
+    
+    }
+    .navbare ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: map-get($colors, terciario);
+        background-color: map-get($colors, cuarto) ;
+    
+    
+    }
+    .navbare {
+        background-color: map-get($colors, cuarto);
+        height: 45px;
+        padding: 0;
+        margin: 0
+        ;
+    }
+    
+    .footer { 
+        color: aliceblue;
+        background-color: map-get($color, terciario);
+        height: 45px;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        
+    }
+    .info { 
+        background-color: map-get($colors, primario);
+        border: 14px double map-get($color, terciario);
+        color: $color-secundario;
+    }
+    .item{
+    
+        background-color: map-get($color, terciario);
+    
+        border: 1px solid map-get($colors, cuarto);
+     
+        
+     
+        font-family: 'Playfair Display';
+     
+        color: map-get($colors, secundario);
+        text-align: center;
+        
+     
+      }
+      .ingred {
+        font-weight: bolder;
+      }
+      
+    
+    p {
+        color: map-get($color, terciario);
+    }
+    ul { 
+        color: map-get($colors, cuarto);
+    }
+ 
+    a{ text-decoration: none;
+        color: map-get($colors, secundario);
+        
+        
+        }
+    
+    .footer { 
+        color: $color-quinto;
+        background-color: map-get($color, terciario);
+        height: 45px;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    .listas ul {
+    list-style-type:none;
+    
+    }
+    .listi {
+        font-weight: bold;
+    }
+    .clasif {
+        
+        color: map-get($colors, secundario);
+    }
+    .clasif p {
+        background-color: map-get($color, terciario);
+    }
+    * {
+        font-family: $fuente-primaria;
+        color: map-get($colors, secundario);
+    }
+    .envio {
+        text-align: center;
+        display: flow-root;
+    }
+    #ofertas {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+        padding: 25px;
+        flex-direction: row;
+       justify-content: space-around;
+     }
+     
+     
+     #envios {
+        max-width: 50%;
+        border: 2px solid red;
+        height: 30px;
+        text-align: left;
+        
+    
+     }
+     #regalos {
+        max-width: 50%;
+        border: 2px solid ;
+        height: 30px;
+        text-align: right;
+    
+     }
+     #cuotas {
+        max-width: 50%;
+        border: 2px solid ;
+        height: 30px
+     }
+     .conoce {
+        text-align: center;
+     }
+     .footer { 
+        color: map-get($color, quinto);
+        background-color: map-get($color, terciario);
+        height: 45px;
+        padding: 0;
+        margin-top: 60px;
+        text-align: right;
+    }
+.container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+}
+
+.navbare { grid-area: 1 / 1 / 2 / 3; }
+.form { grid-area: 2 / 1 / 5 / 2; }
+.texto { grid-area: 2 / 2 / 5 / 3; }
+.footer { grid-area: 5 / 1 / 6 / 3; }
+.carousel { grid-area: 2 / 2 / 5 / 3; } 
+
+@media (max-width:768px) {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+}
+.footer { 
+    color: $color-quinto;
+    background-color: map-get($colors, secundario);
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.instrucciones {
+background-color: map-get($colors, cuarto);
+background-position: 40px ;
+background-color: none;
+margin: 15px;
+border: 11px double map-get($colors, cuarto);
+text-align: center
+}  
+.footer { 
+    color: aliceblue;
+    background-color: map-get($colors, cuarto);
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.titulo h1 {
+text-align: center;
+}       
+.contenedore{
+
+display: grid;
+
+}
+.aboutus{
+
+background-color: map-get($color, terciario);
+border: 1px solid map-get($colors, primario);
+padding: 1rem;
+font-family: 'Playfair Display';
+color: map-get($colors, secundario);
+text-align: center;
+}
+
+
+.btn {
+
+    border-radius: 5px;
+    
+    width: fit-content;
+
+}
+.btn {
+   @extend .btn;
+   color: palevioletred;
+   @include btn-style( aliceblue, pink )
+}
+@mixin btn-style ($background, $tipography) {
+    background-color: $background;
+    color: $tipography;
+    
+}

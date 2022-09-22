@@ -1,4 +1,4 @@
-body {background-color: map-get($colors, primario);
+body {background-color: map-get($colors, quinto);
     background-repeat:initial;
     background-size: cover;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body {background-color: map-get($colors, primario);
     }
     
     #primer {
-        background-color: map-get($color, terciario); 
+        background-color: map-get($colors, terciario); 
     padding: 25px; 
     }
     
@@ -80,7 +80,7 @@ body {background-color: map-get($colors, primario);
     
     .footer { 
         color: aliceblue;
-        background-color: map-get($color, terciario);
+        background-color: map-get($colors, terciario);
         height: 45px;
         padding: 0;
         margin: 0;
@@ -88,13 +88,13 @@ body {background-color: map-get($colors, primario);
         
     }
     .info { 
-        background-color: map-get($colors, primario);
-        border: 14px double map-get($color, terciario);
+        background-color: map-get($colors,quinto);
+        border: 14px double map-get($colors, terciario);
         color: $color-secundario;
     }
     .item{
     
-        background-color: map-get($color, terciario);
+        background-color: map-get($colors, terciario);
     
         border: 1px solid map-get($colors, cuarto);
      
@@ -113,7 +113,7 @@ body {background-color: map-get($colors, primario);
       
     
     p {
-        color: map-get($color, terciario);
+        color: map-get($colors, terciario);
     }
     ul { 
         color: map-get($colors, cuarto);
@@ -127,7 +127,7 @@ body {background-color: map-get($colors, primario);
     
     .footer { 
         color: $color-quinto;
-        background-color: map-get($color, terciario);
+        background-color: map-get($colors, terciario);
         height: 45px;
         padding: 0;
         margin: 0;
@@ -145,7 +145,7 @@ body {background-color: map-get($colors, primario);
         color: map-get($colors, secundario);
     }
     .clasif p {
-        background-color: map-get($color, terciario);
+        background-color: map-get($colors, quinto);
     }
     * {
         font-family: $fuente-primaria;
@@ -190,8 +190,8 @@ body {background-color: map-get($colors, primario);
         text-align: center;
      }
      .footer { 
-        color: map-get($color, quinto);
-        background-color: map-get($color, terciario);
+        color: map-get($colors, quinto);
+        background-color: map-get($colors, terciario);
         height: 45px;
         padding: 0;
         margin-top: 60px;
@@ -227,7 +227,7 @@ grid-row-gap: 0px;
     text-align: right;
 }
 .instrucciones {
-background-color: map-get($colors, cuarto);
+background-color: map-get($colors, quinto);
 background-position: 40px ;
 background-color: none;
 margin: 15px;
@@ -236,7 +236,7 @@ text-align: center
 }  
 .footer { 
     color: aliceblue;
-    background-color: map-get($colors, cuarto);
+    background-color: map-get($colors, quinto);
     height: 45px;
     padding: 0;
     margin: 0;
@@ -252,7 +252,7 @@ display: grid;
 }
 .aboutus{
 
-background-color: map-get($color, terciario);
+background-color: map-get($colors, quinto);
 border: 1px solid map-get($colors, primario);
 padding: 1rem;
 font-family: 'Playfair Display';
@@ -260,21 +260,23 @@ color: map-get($colors, secundario);
 text-align: center;
 }
 
-
+@mixin btn-style ($background, $tipography) {
+    background-color: $background;
+    color: $tipography;
+    
+    }
+    
 .btn {
 
     border-radius: 5px;
     
     width: fit-content;
+     }
 
-}
+
+
 .btn {
    @extend .btn;
    color: palevioletred;
    @include btn-style( aliceblue, pink )
-}
-@mixin btn-style ($background, $tipography) {
-    background-color: $background;
-    color: $tipography;
-    
 }

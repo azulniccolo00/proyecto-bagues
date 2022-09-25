@@ -1,3 +1,8 @@
+* {
+    font-family: $fuente-primaria;
+    color: map-get($colors, secundario);
+}
+
 body {background-color: map-get($colors, quinto);
     background-repeat:initial;
     background-size: cover;
@@ -7,10 +12,11 @@ body {background-color: map-get($colors, quinto);
      
     }
     
-    h1 {color: map-get($colors, secundario) ;
+    h1 {
+        color: aliceblue;
     font-weight: bold ;
     font-size: 70px;
-    
+   
     
     }
     p{
@@ -90,7 +96,7 @@ body {background-color: map-get($colors, quinto);
     .info { 
         background-color: map-get($colors,quinto);
         border: 14px double map-get($colors, terciario);
-        color: $color-secundario;
+        color:map-get($colors, secundario;
     }
     .item{
     
@@ -102,7 +108,7 @@ body {background-color: map-get($colors, quinto);
      
         font-family: 'Playfair Display';
      
-        color: map-get($colors, secundario);
+        color: map-get($colors, primario);
         text-align: center;
         
      
@@ -112,9 +118,7 @@ body {background-color: map-get($colors, quinto);
       }
       
     
-    p {
-        color: map-get($colors, terciario);
-    }
+  
     ul { 
         color: map-get($colors, cuarto);
     }
@@ -126,7 +130,7 @@ body {background-color: map-get($colors, quinto);
         }
     
     .footer { 
-        color: $color-quinto;
+        color: map-get($colors, quinto);
         background-color: map-get($colors, terciario);
         height: 45px;
         padding: 0;
@@ -147,10 +151,7 @@ body {background-color: map-get($colors, quinto);
     .clasif p {
         background-color: map-get($colors, quinto);
     }
-    * {
-        font-family: $fuente-primaria;
-        color: map-get($colors, secundario);
-    }
+  
     .envio {
         text-align: center;
         display: flow-root;
@@ -212,14 +213,22 @@ grid-row-gap: 0px;
 .footer { grid-area: 5 / 1 / 6 / 3; }
 .carousel { grid-area: 2 / 2 / 5 / 3; } 
 
+.hero > * { color: map-get($colors, primario)
+
+}
+
 @media (max-width:768px) {
-.container {
+     .container {
     display: flex;
     flex-direction: column;
 }
+    .hero h1 {
+    font-size: 40px ;
+    
+} 
 }
 .footer { 
-    color: $color-quinto;
+    color: map-get($colors, quinto);
     background-color: map-get($colors, secundario);
     height: 45px;
     padding: 0;
@@ -243,7 +252,9 @@ text-align: center
     text-align: right;
 }
 .titulo h1 {
-text-align: center;
+text-align: center; 
+color: map-get($colors, primario );
+
 }       
 .contenedore{
 
@@ -279,4 +290,7 @@ text-align: center;
    @extend .btn;
    color: palevioletred;
    @include btn-style( aliceblue, pink )
+}
+form * {
+    margin: 10px;
 }

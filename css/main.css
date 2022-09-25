@@ -7,9 +7,11 @@ body {
   border-image: fill; }
 
 h1 {
-  color: #18120dd0;
+  color: #3a3835d0;
   font-weight: bold;
+  background-color: #e3ebf1;
   font-size: 70px; }
+  
 
 p {
   font-style: oblique; }
@@ -23,7 +25,7 @@ p {
   font-size: 15px; }
 
 #primer {
-  background-color: #383731;
+  background-color: #ecebe2;
   padding: 25px; }
 
 * {
@@ -69,17 +71,17 @@ a {
   color: #18120dd0; }
 
 .item {
-  background-color: #383731;
+  background-color: #ebeae8;
   border: 1px solid #fcf7e73f;
   font-family: 'Playfair Display';
-  color: #18120dd0;
+  color: #ebe8e5d0;
   text-align: center; }
 
 .ingred {
   font-weight: bolder; }
 
 p {
-  color: #383731; }
+  color: #292825; }
 
 ul {
   color: #fcf7e73f; }
@@ -103,10 +105,12 @@ a {
   font-weight: bold; }
 
 .clasif {
-  color: #18120dd0; }
+  color: #18120dd0;
+width: 90%;
+margin: 10% auto; }
 
 .clasif p {
-  background-color: #383731; }
+  background-color: #3b8f7d; }
 
 * {
   font-family: "Playfair Display", serif;
@@ -117,6 +121,9 @@ a {
   display: flow-root; }
 
 #ofertas {
+  @media screen { flex-direction: column
+    
+  }
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,6 +161,7 @@ a {
   text-align: right; }
 
 .container {
+  flex-direction: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -164,6 +172,8 @@ a {
   grid-area: 1 / 1 / 2 / 3; }
 
 .form {
+
+  margin: 10px;
   grid-area: 2 / 1 / 5 / 2; }
 
 .texto {
@@ -178,7 +188,13 @@ a {
 @media (max-width: 768px) {
   .container {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+  text-align: left; }
+  .hero h1 {
+    font-size: 40px ; 
+}
+
+}
 
 .footer {
   color: aliceblue;
@@ -187,6 +203,9 @@ a {
   padding: 0;
   margin: 0;
   text-align: right; }
+  form * {
+    margin: 10px;
+}
 
 .instrucciones {
   background-color: #fcf7e73f;
@@ -205,15 +224,29 @@ a {
   text-align: right; }
 
 .titulo h1 {
-  text-align: center; }
+  text-align: center; 
+ padding: 5%;
+ @media (max-width:768px) {
+  .container {
+ display: flex;
+ flex-direction: column;
+}
+
+}
 
 .contenedore {
   display: grid; }
 
 .aboutus {
-  background-color: #383731;
+  background-color: #44999c;
   border: 1px solid #e3ebf1;
   padding: 1rem;
   font-family: 'Playfair Display';
   color: #18120dd0;
-  text-align: center; }
+  text-align: center; 
+  
+}
+
+.stylep {
+  padding: 0 5%;
+}
